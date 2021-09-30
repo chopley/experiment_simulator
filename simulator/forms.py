@@ -60,10 +60,10 @@ class ModelForm(forms.Form):
     arm_2_name = forms.CharField(label='Arm 2 Name')
     arm_3_name = forms.CharField(label='Arm 3 Name')
     arm_4_name = forms.CharField(label='Arm 4 Name')
-    arm_1_collection_rate = forms.FloatField(label='Arm 1 Expected Collection Rate')
-    arm_2_collection_rate = forms.FloatField(label='Arm 2 Expected Collection Rate')
-    arm_3_collection_rate = forms.FloatField(label='Arm 3 Expected Collection Rate')
-    arm_4_collection_rate = forms.FloatField(label='Arm 4 Expected Collection Rate')
+    arm_1_collection_rate = forms.FloatField(label='Arm 1 Expected Collection Rate [%]')
+    arm_2_collection_rate = forms.FloatField(label='Arm 2 Expected Collection Rate [%]')
+    arm_3_collection_rate = forms.FloatField(label='Arm 3 Expected Collection Rate [%]')
+    arm_4_collection_rate = forms.FloatField(label='Arm 4 Expected Collection Rate [%]')
     n_bootstraps = forms.IntegerField(
         label='Bootstrap Resamples')
     n_months  = forms.IntegerField(

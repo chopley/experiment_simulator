@@ -6,5 +6,7 @@ python3 -m venv exp_simulator
 source exp_simulator/bin/activate
 python3 -m ensurepip
 pip3 install -r requirements.txt
-python3 manage.py runservers
+python3 manage.py runserver
 ```
+
+![Optional Text](../master/images/form_example.png)
